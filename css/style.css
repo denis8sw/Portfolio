@@ -1,0 +1,1025 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    user-select: none;
+    overflow-y: hidden;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a,
+p,
+button {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.theprojects {
+    position: absolute;
+    top: 1815px;
+   
+}
+
+
+.particles-js {
+    position: absolute;
+    width: 100%;
+    height: 3770.9px;
+}
+
+
+.firstwrap {
+    margin-top: -25px;
+    width: 100%;
+    height: 950px;
+    background-color: #000000;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+.nav h2 {
+    position: relative;
+    top: 30px;
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    width: 147px;
+
+}
+
+.sp1 {
+    font-weight: 350;
+}
+
+
+.hrefs {
+    position: relative;
+    top: -10px;
+    margin-left: 600px;
+}
+
+.hrefs a {
+    color: white;
+    margin-right: 40px;
+}
+
+.hrefs a:hover {
+    color: #6679cc;
+    transition: all .3s;
+}
+
+.rightnav {
+    position: absolute;
+    margin-right: 100px;
+    right: 0;
+    top: 27px;
+}
+
+.rightnav button {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.rightnav button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.rightnav button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.rightnav button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+.wrapmain {
+    position: relative;
+    z-index: 3;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+}
+
+
+.maintexts {
+    margin-top: 200px;
+}
+
+.maintexts h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.maintexts p {
+    color: lightskyblue;
+    width: 430px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box {
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.box h3 {
+    position: relative;
+    top: 3px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+.second {
+    margin-top: -23px;
+    height: 750px;
+    background-color: #000000;
+    width: 100%;
+    border-bottom: 3px solid;
+}
+
+
+.boxes {
+    position: relative;
+    top: 60px;
+    margin-left: -800px;
+    width: 600px;
+    height: 600px;
+}
+
+.box1 {
+    position: absolute;
+    width: 600px;
+    height: 160px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #1a1d1f;
+    box-shadow: 7px 7px;
+    transition: all .3s;
+
+}
+
+.box1:hover {
+    width: 630px;
+    height: 180px;
+}
+
+.box2:hover {
+    width: 630px;
+    height: 180px;
+}
+
+.box3:hover {
+    width: 630px;
+    height: 180px;
+}
+
+.box1 h2 {
+    position: relative;
+    color: #58e3b2;
+    font-weight: 530;
+    font-size: 26px;
+    transition: all .3s;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box1 p {
+    position: relative;
+    color: lightskyblue;
+    transition: all .3s;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box1 a {
+    position: relative;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.box1 a:hover {
+    color: #6679cc;
+}
+
+.box2 {
+    position: absolute;
+    margin-top: 200px;
+    width: 600px;
+    height: 160px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #1a1d1f;
+    box-shadow: 7px 7px;
+    transition: all .3s;
+}
+
+.box2 h2 {
+    position: relative;
+    color: #58e3b2;
+    font-weight: 530;
+    font-size: 26px;
+    transition: all .3s;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box2 p {
+    position: relative;
+    color: lightskyblue;
+    transition: all .3s;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box2 a {
+    position: relative;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.box2 a:hover {
+    color: #6679cc;
+}
+
+
+.box3 {
+    position: absolute;
+    margin-top: 400px;
+    width: 600px;
+    height: 160px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #1a1d1f;
+    box-shadow: 7px 7px;
+    transition: all .3s;
+}
+
+.box3 h2 {
+    position: relative;
+    color: #58e3b2;
+    font-weight: 530;
+    font-size: 26px;
+    transition: all .3s;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box3 p {
+    position: relative;
+    color: lightskyblue;
+    transition: all .3s;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.box3 a {
+    position: relative;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.box3 a:hover {
+    color: #6679cc;
+}
+
+.intro {
+    margin-top: -560px;
+    width: 600px;
+    height: 600px;
+    margin-right: -850px;
+}
+
+.theskills1 {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.theskills2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.skill1 {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 30px;
+    background-color: #2d2f33;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.skill1:hover {
+    background-color: #36395A;
+}
+
+
+
+.skill1 p {
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.skill1 img {
+    position: relative;
+    top: 30px;
+    transition: ease-in-out .6s;
+}
+
+.skillbox {
+    position: relative;
+    top: 480px;
+    width: 420px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.skillbox h3 {
+    position: relative;
+    font-size: 19px;
+    top: 3px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+.third {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    transition: all .5s;
+}
+
+
+.projects {
+    position: relative;
+    width: 1600px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .8s;
+    z-index: 10;
+}
+
+.projects h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 70px;
+    font-family: 'Russo One', sans-serif;
+    transition: all .3s;
+}
+
+.beg {
+    background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+
+.play {
+    position: relative;
+    top: 330px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.play button {
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all .3s;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.play button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.boxes2 {
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box8 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    transition: all .5s;
+    text-align: center;
+    cursor: pointer;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.box8 h3 {
+    position: relative;
+    top: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .3s;
+}
+
+.hover {}
+
+.hover:hover {
+    transform: scale(1.2);
+}
+
+.margin8 {
+    margin-right: 0 !important;
+}
+
+
+.backbtn {
+    position: relative;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    transition: all .3s;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.backbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.language {
+    position: relative;
+    top: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.language img {
+    width: 60px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.marg {
+    margin-left: 30px;
+}
+
+
+.thetext1 {
+    width: 550px;
+    margin: auto;
+}
+
+.thetext2 {
+    width: 550px;
+    margin: auto;
+}
+
+.thetext2 p{}
+
+.thetext3 {
+    width: 550px;
+    margin: auto;
+}
+
+
+
+.thetext1 img {
+    width: 110px;
+}
+
+.custom1 {
+    width: 300px !important;
+}
+
+.custom2 {
+    width: 450px !important;
+}
+
+.custom3 {
+    text-decoration: underline !important;
+    color: #0099ff;
+}
+
+
+.fourth {
+    width: 100%;
+    height: 1300px;
+    background-color: black;
+}
+
+.cert {
+    display: flex;
+    justify-content: center;
+}
+
+.cert img {
+    width: 600px;
+}
+
+.contact {
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact p {
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Russo One', sans-serif !important;
+}
+
+
+.drop{
+    position: absolute;
+    width: 0%;
+    background-color: rgb(0, 0, 0);
+    height: 0%;
+    z-index: 20;
+    transition: all 2s;
+}
+
+.drop2{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    transition: all .8s;
+}
+
+
+.drop h3{
+   position: relative;
+   top: 200px;
+   color: white;
+   font-size: 40px;
+   cursor: pointer;
+}
+
+.drop a{
+    position: relative;
+    color: white;
+}
+
+
+
+
+.otherhrefs{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.drop ion-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 90px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+
+
+
+@media only screen and (max-width: 1614px) {
+    .projects {
+        width: 1000px;
+    }
+
+    .projects h2 {
+        width: 900px;
+        font-size: 70px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1022px) {
+    .projects {
+        width: 600px;
+    }
+
+    .projects h2 {
+        width: 900px;
+        font-size: 55px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 616px) {
+    .projects {
+        width: 360px;
+    }
+
+    .custom2{
+        width: 300px !important;
+    }
+
+    .projects h2 {
+        width: 900px;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .box8 {
+        width: 120px;
+        height: 140px;
+    }
+
+    .box8 h3 {
+        top: 40px;
+        font-size: 12px;
+    }
+
+    .box8 h3:hover {
+        transform: scale(1);
+    }
+
+    .thetext1 {
+        width: 350px;
+    }
+
+    .thetext2 {
+        width: 350px;
+    }
+
+    .thetext3 {
+        width: 350px;
+    }
+
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .cert img {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    .fourth{
+        height: 1000px;
+    }
+
+}
+
+@media only screen and (max-width: 512px) {
+
+    .contact {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 602px) {
+
+    .box1:hover {
+        width: 450px !important;
+        height: 160px !important;
+    }
+    .box2:hover {
+        width: 450px !important;
+        height: 160px !important;
+    }
+    .box3:hover {
+        width: 450px !important;
+        height: 160px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 602px) {
+
+    .box1:hover {
+        width: 450px !important;
+        height: 160px !important;
+    }
+    .box2:hover {
+        width: 450px !important;
+        height: 160px !important;
+    }
+    .box3:hover {
+        width: 450px !important;
+        height: 160px !important;
+    }
+
+    .box1 a:hover {
+        color: white;
+    }
+    .box2 a:hover {
+        color: white;
+    }
+    
+    .box3 a:hover {
+        color: white;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 508px) {
+
+    .box1:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+    .box2:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+    .box3:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+
+    .box1 p {
+        width: 300px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 470px) {
+
+    .box1:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+    .box2:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+    .box3:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+
+    .box1 p {
+        width: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width: 442px) {
+
+    .box1:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+    .box2:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+    .box3:hover {
+        width: 400px !important;
+        height: 140px !important;
+    }
+
+    .box1 p {
+        width: 300px;
+    }
+
+    .particles-js{
+        height: 3530px !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 438px) {
+
+    .box1:hover {
+        width: 350px !important;
+        height: 140px !important;
+    }
+    .box2:hover {
+        width: 350px !important;
+        height: 140px !important;
+    }
+    .box3:hover {
+        width: 350px !important;
+        height: 140px !important;
+    }
+
+    .particles-js{
+        height: 3450px !important;
+    }
+
+}
+
+@media only screen and (max-width: 442px) {
+
+    .box1 p {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+
+    .particles-js {
+        position: absolute;
+        width: 100%;
+        height: 4372.9px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .particles-js {
+        position: absolute;
+        width: 100%;
+        height: 4072.9px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 442px) {
+
+    .particles-js {
+        position: absolute;
+        width: 100%;
+        height: 3922.9px;
+    }
+}
+
+
+@media only screen and (max-width: 438px) {
+
+    .particles-js {
+        position: absolute;
+        width: 100%;
+        height: 3837.9px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 396px) {
+
+    .particles-js {
+        position: absolute;
+        width: 100%;
+        height: 3837.9px;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+
+    .skill1:hover {
+      background-color: #2d2f33 !important;
+    }
+    
+}
+
+@media only screen and (max-width: 738px) {
+
+    .firstwrap {
+      height: 700px ;
+    }
+
+    .third{
+        height: 660px;
+    }
+
+    .backbtn{
+        top: 370px;
+    }
+
+    .particles-js{
+        height: 3680px;
+    }
+    
+}
